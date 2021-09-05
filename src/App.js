@@ -1,12 +1,12 @@
 import "./App.css";
 import About from "./pages/About";
-import Nav from "./components/Nav";
+import Nav from "./Nav";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Shop from "./pages/Shop";
 import ItemDetails from "./pages/ItemDetails";
 import {
-    BrowserRouter as Router,
+    BrowserRouter as Router, //HashRouter MemoryRouter
     Switch,
     Route,
     Redirect,

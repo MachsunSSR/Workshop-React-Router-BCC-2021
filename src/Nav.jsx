@@ -14,10 +14,6 @@ const Nav = () => {
                 <NavLink to="/shop">
                     <li>Shop</li>
                 </NavLink>
-                <NavLink to="/login">
-                    <li>Login</li>
-                </NavLink>
-                <button>Logout</button>
             </ul>
         </nav>
     );

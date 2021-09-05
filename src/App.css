@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+}
+
+a {
+    color: rgb(81, 120, 136);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(28, 32, 34);
+    color: white;
+}
+
+nav .active {
+    color: yellow;
+}
+
+.navlinks {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.btn-login {
+    background-color: lightblue;
+    margin-top: 50px;
+    width: 50%;
+    height: 10vh;
+}
